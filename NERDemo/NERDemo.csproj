@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NERWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\NERWrapper\bin\NERWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,12 +58,6 @@
     <Content Include="ExampleFiles\jane-austen-emma-ch1-labeled.tsv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NERWrapper\NERWrapper.csproj">
-      <Project>{1fa6862c-f430-41be-a6d7-46c196e901b9}</Project>
-      <Name>NERWrapper</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ExampleFiles\jane-austen-emma-ch1.txt">

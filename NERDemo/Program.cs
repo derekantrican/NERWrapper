@@ -15,7 +15,7 @@ namespace NERDemo
             //Guide from stanford.edu: https://nlp.stanford.edu/software/crf-faq.shtml#a
             //Example article on training on recipe ingredients: https://thoughtbot.com/blog/named-entity-recognition
 
-            NERHelper helper = new NERHelper();
+            NERHelper helper = new NERHelper(@"..\..\NERWrapper\bin\stanford-ner.jar"); //Either include stanford-ner.jar at the same level as NERWrapper.dll or specify the path in the constructor
             helper.Tokenize(@"ExampleFiles\jane-austen-emma-ch1.txt", @"ExampleFiles\jane-austen-emma-ch1.tok");
             helper.LabelTokens(@"ExampleFiles\jane-austen-emma-ch1.tok", @"ExampleFiles\jane-austen-emma-ch1.tsv"); //Set all tokens to "O" (background)
 
