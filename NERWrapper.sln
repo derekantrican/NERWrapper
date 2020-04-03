@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NERWrapper", "NERWrapper\NERWrapper.csproj", "{1FA6862C-F430-41BE-A6D7-46C196E901B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NERDemo", "NERDemo\NERDemo.csproj", "{14E88503-7E30-4A5A-BEEE-7DAE09947EDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FA6862C-F430-41BE-A6D7-46C196E901B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA6862C-F430-41BE-A6D7-46C196E901B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA6862C-F430-41BE-A6D7-46C196E901B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA6862C-F430-41BE-A6D7-46C196E901B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E88503-7E30-4A5A-BEEE-7DAE09947EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E88503-7E30-4A5A-BEEE-7DAE09947EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E88503-7E30-4A5A-BEEE-7DAE09947EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E88503-7E30-4A5A-BEEE-7DAE09947EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D59E932D-6906-47FB-8C22-83FFAF5B83B7}
+	EndGlobalSection
+EndGlobal
